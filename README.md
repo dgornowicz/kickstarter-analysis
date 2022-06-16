@@ -7,7 +7,7 @@ by David Gornowicz, davidgornowicz@gmail.com
 Using Pivot tables and countifs arrays to visualize and gain insights into kickstarter fundraising outcomes based on relevant paramenters (Launch Date and Fundraising Goal).
 
 ### Purpose
-Louise was fundraising for her theatrical play, Fever. After almost reaching her goal in a short time, she wanted to know how different campaigns performed in relation to their launch dates and their funding goals.
+Louise was fundraising for her theatrical play, *Fever*. After almost reaching her goal in a short time, she wanted to know how different campaigns performed in relation to their launch dates and their funding goals.
 
 ## Analysis and Challenges
 
@@ -63,7 +63,7 @@ Finally, a line graph was used to compare the percentage outcomes by Goal.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- What can you conclude about the Outcomes based on Launch Date?
   
   - There are more theater kickstarter campaigns launched during the middle of the year (May-August) than the rest of the year (September-April)
   - May is the most common month to launch a theater kickstarter campaign (163) and the month with the most succesful campaigns (111). This is a 68% success rate. This is contrast to December with 75 total campaigns and 37 succesful campaigns - a 54% success rate. 
@@ -78,7 +78,7 @@ Finally, a line graph was used to compare the percentage outcomes by Goal.
 
 - What are some limitations of this dataset?
   
-  - The primary limitation of this dataset was limited sample sizes after several layers of filtering and grouping. This was most obvious in the "Outcomes Based on Goals" analysis where sample sizes for every grouping more than 15000 where a fraction of the sample sizes for the lower goal ranges. For example, there are 186, 534, and 169 campgaigns for the "Less than 1000", "1000 to 4999", and "5000 to 9999" goal ranges, respectively. However there are 6, 3, and 1 campaigns for the "35000 to 39999", "40000 to 44999", and "45000 to 49999" goal ranges.
+  - The primary limitation of this dataset was limited sample sizes after several layers of filtering and grouping. This was most obvious in the "Outcomes Based on Goals" analysis where sample sizes for every grouping more than 15000 where a fraction of the sample sizes for the lower goal ranges. For example, there are 186, 534, and 169 campgaigns for the "Less than 1000", "1000 to 4999", and "5000 to 9999" goal ranges, respectively. However there are 6, 3, and 1 campaigns for the "35000 to 39999", "40000 to 44999", and "45000 to 49999" goal ranges. Such a large discrepancy in sample size across goal ranges can cause issues with the reliability of the analysis.
 
 - What are some other possible tables and/or graphs that we could create?
   
